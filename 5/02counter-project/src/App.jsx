@@ -24,7 +24,6 @@ function App() {
     <>
       <h1>Chai aur react</h1>
       <h2>Counter value: {count}</h2>
-      {/* isMember ? '$2.00' : '$10.00'; */}
       <button onClick={addValue}>Add</button>
       <br />
       <br />
