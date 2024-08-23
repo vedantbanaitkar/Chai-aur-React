@@ -3,7 +3,7 @@ import ColorBtn from './ColorBtn'
 
 const Menu = () => {
   return (
-    <div className='fixed inset-y-[600px] flex h-20 gap-6 items-center justify-center bg-slate-300 px-4 rounded-md'>
+    <div className='fixed inset-y-[600px] flex h-20 gap-6 items-center justify-center bg-slate-300 px-6 rounded-full'>
       <ColorBtn color="red"/>
       <ColorBtn color="green"/>
       <ColorBtn color="blue"/>

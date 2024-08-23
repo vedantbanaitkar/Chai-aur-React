@@ -11,10 +11,9 @@ const ColorBtn = ({ color }) => {
         color: "white",
         border: "none",
         padding: "10px 20px",
-        borderRadius: "5px",
         cursor: "pointer",
       }}
-      className="w-[100px]"
+      className="w-[100px] rounded-3xl"
      onClick={clickHandler}>
       {color}
     </button>
